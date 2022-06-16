@@ -29,7 +29,7 @@ const Header = () => {
         </div>
       </div>
       <div className='header-inner-right'>
-      <div className='icon'>
+        <div className='icon'>
           <img className='help-icon' src="images/icon-ellipsis.png"></img>
         </div>
         <div className='icon'>

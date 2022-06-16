@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
 import HeadLine from './components/HeadLine';
-import ItemList from './components/ItemList';
 import Aside from './components/Aside';
 import BoxList from './components/BoxList';
 import Footer from './components/Footer';
@@ -15,7 +14,6 @@ class App extends Component {
         <main>
           <section id="content">
             <HeadLine />
-            <ItemList />
           </section>
           <Aside />
           <BoxList />
