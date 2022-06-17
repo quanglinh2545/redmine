@@ -79,8 +79,29 @@ headline {
   flex-direction: row;
 }
 
+.project-list-link:hover {
+  background-color: #4caf93;
+}
+
+.project-list-link:hover .name {
+  color: white;
+}
+
+.project-list-link:hover .project-key {
+  display: none;
+}
+
+.project-list-link:hover .project-option {
+  display: block;
+  display: flex;
+}
+
 .project-key {
   color: #777;
+}
+
+.name {
+  margin-bottom: 4px;
 }
 
 .project-image {
@@ -88,4 +109,51 @@ headline {
   align-items: center;
   justify-content: center;
   margin-right: 6px;
+}
+
+.project-issue-link {
+  color: white;
+  /* font-family: "Open Sans", Meiryo, "メイリオ", Arial, sans-serif; */
+  text-decoration: none;
+}
+
+.project-option {
+  display: none;
+}
+
+.issue {
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right: solid 2px #ddd;
+}
+
+.issue1 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.issue:hover .project-issue-link {
+  background-color: #00836b;
+  color: white;
+}
+
+.issue1:hover .project-issue-link {
+  background-color: #00836b;
+  color: white;
+}
+
+.issue:hover {
+  background-color: #00836b;
+}
+
+.issue1:hover {
+  background-color: #00836b;
+}
+
+.project-list {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.my-issues {
+  border: 1px solid black;
 }

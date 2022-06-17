@@ -34,13 +34,46 @@ const HeadLine = () => {
                     <img className='project-img' src="images/dashBoard.png"></img>
                   </div>
                   <div className='project-name'>
-                    <span className='name'>
+                    <div className='name'>
                       Project1
-                    </span>
+                    </div>
                     <div className='project-key'>
-                      pj1
+                      <div className='project-key-text'>
+                        pj1
+                      </div>
+                    </div>
+                    <div className='project-option'>
+                      <div className='issue'>
+                        <a class='project-issue-link' href='#'>Add issue</a>
+                      </div>
+                      <div className='issue'>
+                        <a class='project-issue-link' href='#'>Issues</a>
+                      </div>
+                      <div className='issue1'>
+                        <a class='project-issue-link' href='#'>Board</a>
+                      </div>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='my-issues'>
+          <div className='project-list-title'>
+              <div className='project-list-left'>
+                <div>
+                  <img className='list-project-icon' src="images/icon-arrow-down.png"></img>
+                </div>
+                <span className='projects'>
+                  My Issues
+                </span>
+              </div>
+              <div className='project-list-right'>
+                <div className='icon-collapsed'>
+                  <img className='list-project-icon2' src="images/icon-plus1.png"></img>
+                </div>
+                <div className='icon-collapsed'>
+                  <img className='list-project-icon2' src="images/icon-search.svg"></img>
                 </div>
               </div>
             </div>
