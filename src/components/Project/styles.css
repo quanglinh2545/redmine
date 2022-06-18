@@ -1,0 +1,126 @@
+project {
+  /* border: 1px solid black; */
+  width: 100%;
+  padding: 21px;
+}
+
+.project-text {
+  color: #3e4359;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.43em;
+  font-weight: 500;
+  line-height: 1.33;
+}
+
+.contextual {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.add-project {
+  display: flex;
+  background-color: #eff0f4;
+  border-color: #eff0f4;
+  border-radius: 3px;
+  padding: 3px 8px;
+}
+
+.add-project-icon {
+  width: 15px;
+  min-height: 15px;
+}
+
+.icon-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-project {
+  display: flex;
+  text-align: center;
+}
+
+.new-pj-text {
+  font-size: 14px;
+  margin-left: 3px;
+  display: inline-block;
+  line-height: 23px;
+}
+
+.space {
+  height: 25px;
+  margin-bottom: 12px;
+  border-top: 1px solid #eff0f4;
+  border-bottom: 1px solid #eff0f4;
+}
+#project-index {
+  /* border: 1px solid black; */
+}
+
+.projects-root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+li.root {
+  border: 1px solid black;
+  width: calc(25% - 20px);
+  display: block;
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  margin-bottom: 20px;
+  border: 1px solid #dadce6;
+  border-radius: 3px;
+  background-color: #f9fafb;
+  color: #3e4359;
+  padding: 15px 15px;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  li.root {
+    width: calc(33.33333% - 20px);
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  li.root {
+    width: calc(50% - 20px);
+  }
+}
+
+@media all and (max-width: 768px) {
+  li.root {
+    width: calc(100% - 20px);
+  }
+}
+
+.project-link {
+  color:#0051cc;
+  font-size: 21px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.root-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-star {
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description>p {
+  font-size: 14px;
+  line-height: 1.6;
+}

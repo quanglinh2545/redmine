@@ -32,6 +32,11 @@ headline {
   min-height: 15px;
 }
 
+.gantt-chart-img {
+  margin-left: 3px;
+  width: 15px;
+  min-height: 15px;
+}
 .project-list-title {
   display: flex;
   justify-content: space-between;
@@ -156,4 +161,52 @@ headline {
 }
 .my-issues {
   border: 1px solid black;
+}
+
+.my-issues-right {
+  display: flex;
+}
+.gantt-chart {
+  padding: 4px 5px;
+  margin: 0 3px;
+  background-color: white;
+  border: 1px solid #adadad;
+  border-radius: 21px;
+  display: flex;
+}
+
+.gantt-chart:hover {
+  background-color: #00836b;
+  
+}
+
+.gantt-chart:hover .gantt-chart-text{
+  color: white;
+} 
+
+.gantt-chart:hover .gantt-chart-img{
+  background-color: white;
+
+} 
+.gantt-chart-text {
+  margin-left: 5px;
+  margin-right: 3px;
+  color: #666;
+}
+
+.gantt-chart-search {
+  margin: 0 3px;
+  background-color: white;
+  padding: 4px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #adadad;
+  border-radius: 100%;
+}
+
+.my-issues-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

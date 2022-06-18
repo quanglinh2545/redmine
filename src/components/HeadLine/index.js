@@ -59,20 +59,31 @@ const HeadLine = () => {
             </div>
           </div>
           <div className='my-issues'>
-          <div className='project-list-title'>
+            <div className='project-list-title'>
               <div className='project-list-left'>
-                <div>
+                <div className='my-issues-header'>
                   <img className='list-project-icon' src="images/icon-arrow-down.png"></img>
                 </div>
-                <span className='projects'>
-                  My Issues
-                </span>
-              </div>
-              <div className='project-list-right'>
-                <div className='icon-collapsed'>
-                  <img className='list-project-icon2' src="images/icon-plus1.png"></img>
+                <div className='my-issues-header'>
+                  <span className='projects'>
+                    My Issues
+                  </span>
                 </div>
-                <div className='icon-collapsed'>
+              </div>
+              <div className='my-issues-right'>
+                <div className='gantt-chart'>
+                  <img className='gantt-chart-img' src="images/gantt-chart-icon.png"></img>
+                  <div className='gantt-chart-text'>
+                    Gantt Chart
+                  </div>
+                </div>
+                <div className='gantt-chart'>
+                  <img className='gantt-chart-img' src="images/batch-update-icon.png"></img>
+                  <div className='gantt-chart-text'>
+                    Batch Update
+                  </div>
+                </div>
+                <div className='gantt-chart-search'>
                   <img className='list-project-icon2' src="images/icon-search.svg"></img>
                 </div>
               </div>

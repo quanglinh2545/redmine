@@ -1,7 +1,21 @@
 footer {
-  font-size: 30px;
-  text-align: center;
-  background-color: #eecbf3;
-  height: 80px;
-  line-height: 80px;
+  width: 98%;
+  border-top: 1px solid #dadce6;
+  position:absolute;
+  bottom:0;
+  padding: 2px 12px;
+  display: flex;
+  line-height: 25px;
+}
+
+.text {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 9px;
+  color: #a3a6b7;
+}
+
+.name {
+  color: #0051cc;
 }
